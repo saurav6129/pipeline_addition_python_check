@@ -13,6 +13,7 @@ pipeline {
 				sh 'python -m py_compile sources/calulator.py'
 				echo'testing build trigger. '
 				echo'again testing build trigger in automation.'
+				echo'again checking.'
             }
         }
     
