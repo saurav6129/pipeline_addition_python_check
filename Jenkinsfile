@@ -11,6 +11,7 @@ pipeline {
             steps {
                 sh 'python --version'
 				sh 'python -m py_compile sources/calulator.py'
+				echo'testing webhook function.'
             }
         }
     
